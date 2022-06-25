@@ -1,1 +1,8 @@
 Spring -> Framework utilizada para criar a API
+
+Alguns componentes do angular devem ser importados da API antes de serem utilizados no HTML
+Foi adicionado em app.module.ts com o comando import e especificando em @NgModules Imports:
+
+Realizar as configurações de roteamento, tanto global quanto local. Na configuração global, apontamos o caminho do arquivo filho.
+Tag router-outlet -> usada pra informar que estamos usando roteamento
+
